@@ -13,7 +13,6 @@ app.use(cors({
     methods: ['GET', 'POST', 'PUT', 'DELETE'], 
     credentials: true, 
 }));
-app.options('*', cors()); // Handle preflight requests for all routes
 
 
 app.use(express.json());
