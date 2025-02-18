@@ -20,7 +20,7 @@ const TaxHistory = () => {
       }
     };
     fetchHistory();
-  }, []);
+  }, []); 
 
   return (
     <div className="min-h-screen bg-gradient-to-r from-gray-100 to-gray-300 flex flex-col items-center p-4 md:p-8">
