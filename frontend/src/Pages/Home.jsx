@@ -40,7 +40,7 @@ const Home = () => {
     };
 
     try {
-      const response = await axios.post("http://localhost:5000/api/tax/calculate", formattedData);
+      const response = await axios.post("https://taxcal-1dx7.onrender.com/api/tax/calculate", formattedData);
 
       if (response.data.message === "No Income Tax") {
         setTaxData(null);

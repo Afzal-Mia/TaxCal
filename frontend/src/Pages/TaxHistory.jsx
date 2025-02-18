@@ -11,7 +11,7 @@ const TaxHistory = () => {
   useEffect(() => {
     const fetchHistory = async () => {
       try {
-        const response = await axios.get("http://localhost:5000/api/tax/history");
+        const response = await axios.get("https://taxcal-1dx7.onrender.com/api/tax/history");
         setHistory(response.data);
       } catch (err) {
         setError("Failed to fetch tax history. Please try again.");
