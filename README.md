@@ -1,6 +1,12 @@
-# Tax Calculation Web App
+# Tax Calculation Web App 
 
-![Tax Calculation App Preview](./assets/preview-image.png)
+![Tax Calculation App Preview 1](./frontend/public/tax1.jpeg)
+![Tax Calculation App Preview 2](./frontend/public/tax2.png)
+![Tax Calculation App Preview 3](./frontend/public/tax3.png)
+
+## Live Demo
+
+🔗 [Hosted Live Link](https://taxcalfrontend.onrender.com/)
 
 ## Overview
 
@@ -12,8 +18,6 @@ This web application allows users to calculate their income tax based on various
 - 🧾 **Tax History**: Users can view their previous tax calculation history, including details such as income, deductions, tax payable, and calculation date.
 - 💡 **Suggestions**: The app provides useful suggestions on how to optimize tax-saving investments.
 - 📱 **Responsive Design**: Optimized for mobile and desktop devices, ensuring a seamless experience across platforms.
-- 🌙 **Dark/Light Mode**: A toggle feature to switch between dark and light themes for user preference.
-- 🔒 **Role-Based Authentication**: Firebase authentication integrated with secure login and signup functionality for managing user access.
 
 ## Tech Stack
 
@@ -21,8 +25,7 @@ This web application allows users to calculate their income tax based on various
   - React (Vite) 🚀
   - Tailwind CSS 🎨
   - React Router DOM 🌐 (for routing)
-  - Firebase Authentication 🔑 (for user login/signup)
-  - Context API 📦 (for global state management)
+ 
 
 - **Backend**:
   - Node.js ⚙️
@@ -38,3 +41,8 @@ This web application allows users to calculate their income tax based on various
 1. Clone the repository:
    ```bash
    git clone https://github.com/Afzal-Mia/tax-calculation-app.git
+  
+2. .env file  
+```bash   
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
